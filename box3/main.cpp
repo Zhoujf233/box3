@@ -7,23 +7,8 @@
 //
 
 #include <iostream>
+#include "box3.h"
 using namespace std;
-
-class Box
-{
-public:
-    Box(int h =10,int w = 12,int len = 15):height(h),width(w),length(len){}
-    int volume();
-private:
-    int height;
-    int width;
-    int length;
-};
-
-int Box::volume()
-{
-    return (height * width * length);
-}
 
 int main(int argc, const char * argv[])
 {
