@@ -10,6 +10,11 @@
 #include "box3.h"
 using namespace std;
 
+int Box::volume()
+{
+    return (height * width * length);
+}
+
 int main(int argc, const char * argv[])
 {
     Box a[3] =
